@@ -4,6 +4,10 @@
 .env.local
 .env.*.local
 
+# Spring Boot 配置文件（包含敏感信息）
+src/main/resources/application.yml
+src/main/resources/application.properties
+
 # Node_modules
 node_modules/
 
